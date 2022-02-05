@@ -7,10 +7,10 @@ public class SkillDemo {
 
         if (catalog.equals("minecraft")) {
             return minecraft[index];
-        } else {//if(catalog.equals("vSauce")) {
+        } else if(catalog.equals("vSauce")) {
             return vSauce[index];
-        // } else {
-        //     return "This catalog isn't available yet :(";
+        } else {
+            return "This catalog isn't available yet :(";
         }
     }
 }
